@@ -1,6 +1,7 @@
 package elastic_logrus
 
 import (
+	"context"
 	"fmt"
 	"strings"
 	"time"
@@ -9,7 +10,6 @@ import (
 
 	"github.com/olivere/elastic"
 	"github.com/pkg/errors"
-	"golang.org/x/net/context"
 )
 
 var (
